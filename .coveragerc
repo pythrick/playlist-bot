@@ -1,0 +1,10 @@
+[run]
+omit =
+  *config/*
+  *tests/*,
+  main.py
+  app.py
+  conftest.py
+
+[report]
+precision = 2
