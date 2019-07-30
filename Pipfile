@@ -8,6 +8,13 @@ verify_ssl = true
 [packages]
 instagram-private-api = {git = "https://git@github.com/ping/instagram_private_api.git",ref = "1.6.0"}
 python-decouple = "*"
+pytest = "*"
+python-levenshtein = "*"
+fuzzy = "*"
+requests = "*"
+pytest-mock = "*"
+pytest-cov = "*"
+faker = "*"
 
 [requires]
 python_version = "3.7"

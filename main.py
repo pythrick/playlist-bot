@@ -1,4 +1,4 @@
-from instagram import get_comments
+from services.instagram import InstagramService
 
 
 def write_to_file(values):
@@ -8,5 +8,6 @@ def write_to_file(values):
 
 
 if __name__ == '__main__':
-    comments = get_comments()
+    instagram_service = InstagramService()
+    comments = instagram_service.list_comments()
     write_to_file(comments)
