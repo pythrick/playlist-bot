@@ -1,6 +1,7 @@
 import hashlib
 import string
 import random
+import time
 
 from typing import List
 
@@ -16,6 +17,11 @@ class InstagramService(Client):
         options = string.ascii_lowercase + string.digits
         text = ''.join([random.choice(options) for _ in range(8)])
         return hashlib.md5(text.encode())
+
+    @staticmethod
+    def _delay() -> None:
+        time.sleep(random.uniform(1, 5))
+        return None
 
     def list_comments(self, post_short_code: str, max_comments: int = None) -> List['str']:
         comments = []
@@ -34,4 +40,6 @@ class InstagramService(Client):
                         return comments
             except KeyError:
                 return comments
+
+            self._delay()
         return comments
