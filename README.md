@@ -1,8 +1,8 @@
 <h1 align="center">Welcome to Playlist Bot 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-0.0.1-blue.svg?cacheSeconds=2592000" />
-  <a href="https://twitter.com/pytrickr">
-    <img alt="Twitter: pytrickr" src="https://img.shields.io/twitter/follow/pytrickr.svg?style=social" target="_blank" />
+  <a href="https://twitter.com/pythrick">
+    <img alt="Twitter: pythrick" src="https://img.shields.io/twitter/follow/pythrick.svg?style=social" target="_blank" />
   </a>
 </p>
 
@@ -41,8 +41,8 @@ pipenv run pytest --cov-report term --cov=.
 
 👤 **Patrick Rodrigues**
 
-* Twitter: [@pytrickr](https://twitter.com/pytrickr)
-* Github: [@pytrickr](https://github.com/pytrickr)
+* Twitter: [@pythrick](https://twitter.com/pythrick)
+* Github: [@pythrick](https://github.com/pythrick)
 
 ## Show your support
 
